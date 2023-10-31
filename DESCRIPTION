@@ -1,0 +1,13 @@
+Package: stnweib
+Type: Package
+Title: Implementing a lag-1 stochastic process model particularly for those time-series dataset
+ which has tie case in two consecutive time points.
+Version: 0.1.0
+Author: Debarghya Jana
+Maintainer: Debarghya Jana<jdebarghya@gmail.com>
+Description: This package will implement a new proposed discrete time and continuous state space stochastic process model based on Weibull distribution.It works very effectively when there are ties  in two consecutive time points in the user-given time series data.The proposed stochastic process here is a lag-1 process.
+    So,it will simply ask for time-series data from the user and then it will provide the test statistic for the model and it will also provide the corresponding p-value to understand how good the proposed model fits with the data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
