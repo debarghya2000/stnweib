@@ -297,7 +297,7 @@ stnwep <- function(x)
   teststat_org <- max(abs(sort(weibull(length(x),all[2],all[2],all[1])) - est1_new))
   p1 <- length(which(teststat1 > teststat_org))/length(teststat1)
   out <- c(teststat_org , p1)
-  print(out)
+ 
   
   # if(teststat_org > cn)
   #  {
