@@ -342,6 +342,6 @@ stnwep <- function(x)
   par(mfrow = c(1,2))
   hist(teststat1 , col = "red" , xlab = "Test Statistic" , main = expression(paste("WEP (", alpha,",",lambda,",",lambda ,") Model")) )
   hist(teststat2 , col = "blue" , xlab = "Test Statistic" , main = expression(paste("WEP (" ,alpha,",",lambda[0],",",lambda[1] ,") Model")))
-  print(out)
+  
 }
 
