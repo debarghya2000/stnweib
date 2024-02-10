@@ -1,4 +1,4 @@
-To install the R library directly from github, run the following from R:
+To install this package and load the R library directly from GitHub, write and run the following from R:
 
 ```r
 library(devtools)
